@@ -21,3 +21,13 @@ _chmod +x Main.jar_
 **Execute Main.jar**
 we can execute Main.jar in terminal as 
 _./Main.jar_
+
+
+**Details to Update**
+
+1. final String abPath --> Update this with absolute path of the file to be updated (do not put / in the end).
+                            Example - /home/ads
+2. final String fileNameWithExtension--> Mention the file to rename.
+3. final String machineNameToUse --> Virtual machine name for starting
+4. final String updatedFileName --> File name that should be updated later if end date is reached
+5. returnEndDate() --> Here you can modify the numbers for date
